@@ -77,6 +77,13 @@ python train_setup2.py
 * You can use tensorboard to monitor training accuracy in real time, and startup files are saved in ```./log```.
 
 * The training save weights are located in ```./dest_pth```, and you can use the weights and apply the framework for cross-domain image retrieval.
+
+### Commands for Test
+* You can perform cross-domain image retrieval by running test_pic.py, and save the top 10 similar images in the domain. The images are saved in```./similar_images_coda```, which you can view.
+```
+python test_picture.py
+```
+
 ### Comparison with the State-of-the-Art Methods
 * We conducted COLA unsupervised cross-domain image retrieval on three datasets to evaluate the performance of COLA and other methods.The graph shows that this framework and method significantly improve the ability of cross-domain retrieval compared with other methods.Diagrams comparing the Office31 data set to other methods are in the framework.
 
@@ -103,7 +110,4 @@ and experiments on these three datasets show that it has enhanced cross-domain r
 Hierarchical Clustering (HC), and recent PUMR, as shown in Table.
 
 ![k-mean](https://github.com/user-attachments/assets/22acfba3-a2fc-49f7-9f2a-b85fe6d4c178)
-
-
-
 
