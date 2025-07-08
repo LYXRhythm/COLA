@@ -31,7 +31,7 @@ methods, demonstrate the superiority of COLA.
 
 ### Requirements
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ``` 
 
 ### Datasets
