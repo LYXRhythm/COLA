@@ -1,28 +1,10 @@
 # COLA
-Learning Fully Unsupervised Cross-Domain Image Retrieval through Self-supervised Pseudo-labels
+Learning Fully Unsupervised Cross-Domain Image Retrieval through Self-supervised Pseudo-labels (IEEE Transactions on Multimedia, PyTorch Code)
 
-Authors: Yongxiang Li, Xiaoyun Ren, Xingbo Zhao, Qianwen Lu, and Qingchuan Tao
+Authors: Yongxiang Li, Xiaoyun Ren, Yuan Sun, Guiduo Duan, Dezhong Peng and Qingchuan Tao
 
 ### Abstract
-As diverse image types proliferate and the demand for efficient information retrieval intensifies, large-scale cross-domain image retrieval has become an important research filed. Despite great progress in supervised methods, fully unsupervised
-cross-domain image retrieval (FUCIR) remains challenging due to the lack of category annotations and cross-domain correspondences. Existing FUCIR approaches predominantly focus
-on learning unified semantic representations by maximizing cooccurrence information across domains. However, they usually neglect the intrinsic relationships among instances, hindering a deeper understanding of the data and leading to suboptimal
-performance. To overcome these limitations, we propose a novel coarse-to-fine learning paradigm called COLA, which leverages
-self-supervised pseudo-labels as supervised information to robustly learn both discriminative and domain-invariant representations. Specifically, COLA consists of two key components: Self-supervised Pseudo-labels Annotation (SPA) and Robust Representation Learning (RRL). SPA facilitates a deep understanding
-of instance-level similarities and encapsulates discrimination into
-the representations in a self-supervised learning manner, thereby
-generating high-quality pseudo-labels. However, the inevitable
-noise in pseudo-labels can introduce significant risks of overfitting
-and unreliable cross-domain correspondences. To mitigate these
-issues, RRL designs a novel loss function, Adaptive Robust Loss
-(ARL), and combines it with contrastive constraint to improve
-discrimination from imperfect predictions, effectively reducing
-the impact of uncertain samples. This strategy benefits the
-identification of decision boundaries that are robust to noise,
-thereby minimizing the interference of noise during the learning
-process. Extensive experiments on three public cross-domain
-image datasets, along with comparisons to eight state-of-the-art
-methods, demonstrate the superiority of COLA.
+As diverse image types proliferate and the demand for efficient information retrieval intensifies, large-scale cross-domain image retrieval has become an important research filed. Despite great progress in supervised methods, fully unsupervised cross-domain image retrieval (FUCIR) remains challenging due to the lack of category annotations and cross-domain correspondences. Existing FUCIR approaches predominantly focus on learning unified semantic representations by maximizing cooccurrence information across domains. However, they usually neglect the intrinsic relationships among instances, hindering a deeper understanding of the data and leading to suboptimal performance. To overcome these limitations, we propose a novel coarse-to-fine learning paradigm called COLA, which leverages self-supervised pseudo-labels as supervised information to robustly learn both discriminative and domain-invariant representations. Specifically, COLA consists of two key components: Self-supervised Pseudo-labels Annotation (SPA) and Robust Representation Learning (RRL). SPA facilitates a deep understanding of instance-level similarities and encapsulates discrimination into the representations in a self-supervised learning manner, thereby generating high-quality pseudo-labels. However, the inevitabl noise in pseudo-labels can introduce significant risks of overfitting and unreliable cross-domain correspondences. To mitigate these issues, RRL designs a novel loss function, Adaptive Robust Loss (ARL), and combines it with contrastive constraint to improve discrimination from imperfect predictions, effectively reducing the impact of uncertain samples. This strategy benefits the identification of decision boundaries that are robust to noise, thereby minimizing the interference of noise during the learning process. Extensive experiments on three public cross-domain image datasets, along with comparisons to eight state-of-the-art methods, demonstrate the superiority of COLA.
 
 ### Framework
 
@@ -110,4 +92,14 @@ and experiments on these three datasets show that it has enhanced cross-domain r
 Hierarchical Clustering (HC), and recent PUMR, as shown in Table.
 
 ![k-mean](https://github.com/user-attachments/assets/22acfba3-a2fc-49f7-9f2a-b85fe6d4c178)
+
+## Citation
+If our work is helpful for your research, please consider citing:
+```
+@inproceedings{li2025learning,
+  title={Learning Fully Unsupervised Cross-Domain Image Retrieval through Self-supervised Pseudo-labels},
+  author={Li, Yongxiang and Ren, Xiaoyun and Sun, Yuan and Duan, Guiduo and Peng, Dezhong and Tao, Qingchuan},
+  booktitle={IEEE Transactions on Multimedia},
+  year={2026}
+}
 
