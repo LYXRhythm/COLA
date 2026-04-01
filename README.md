@@ -69,7 +69,7 @@ python test_picture.py
 ## Citation
 If our work is helpful for your research, please consider citing:
 ```
-@inproceedings{li2025learning,
+@inproceedings{li2026learning,
   title={Learning Fully Unsupervised Cross-Domain Image Retrieval through Self-supervised Pseudo-labels},
   author={Li, Yongxiang and Ren, Xiaoyun and Sun, Yuan and Duan, Guiduo and Peng, Dezhong and Tao, Qingchuan},
   booktitle={IEEE Transactions on Multimedia},
